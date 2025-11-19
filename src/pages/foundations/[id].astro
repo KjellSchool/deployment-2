@@ -15,7 +15,7 @@ const { Content } = await render(entry);
 ---
 
 <Markdown>
-  <a href="/#foundations">Foundations</a>
+  <a href={`${import.meta.env.BASE_URL}/#foundations`}>Foundations</a>
   <h2><span>{entry.data.title}</span></h2>
   <Content />
 </Markdown>
